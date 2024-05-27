@@ -18,12 +18,18 @@
     "@types/react-dom": "npm:types-react-dom@rc"
   },
   "dependencies": {
+    "@biomejs/biome": "^1.7.3",
     "@replit/extensions": "^1.10.0",
     "@replit/extensions-react": "^0.6.0",
     "@replit/replkit": "^0.0.7",
+    "@tanstack/react-form": "^0.20.0",
+    "@tanstack/react-store": "^0.4.1",
     "@types/react": "npm:types-react@rc",
     "@types/react-dom": "npm:types-react-dom@rc",
     "react": "^19.0.0-rc-935180c7e0-20240524",
     "react-dom": "^19.0.0-rc-935180c7e0-20240524"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
   }
 }

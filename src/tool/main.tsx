@@ -9,6 +9,3 @@ createRoot(document.getElementById("root") as Element).render(
     </React.Suspense>
   </React.StrictMode>,
 );
-
-// @ts-ignore
-console.log(globalThis.__REPLIT__);

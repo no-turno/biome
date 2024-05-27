@@ -1,11 +1,8 @@
+preload = ["./preload.ts"]
 jsx = "react-jsx"
 jsxImportSource = "react"
 logLevel = "debug"
 telemetry = false
-
-[loader]
-".tsx" = "tsx"
-".ts" = "ts"
 
 [install]
 auto = "auto"
@@ -13,6 +10,3 @@ auto = "auto"
 [run]
 bun = true
 shell = "bun"
-
-[define]
-"globalThis.__REPLIT__" = "{}"
