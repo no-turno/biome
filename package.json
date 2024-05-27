@@ -1,0 +1,29 @@
+{
+  "name": "replit-extension-template",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "bunx @biomejs/biome lint src/*",
+    "format": "bunx @biomejs/biome format --write src/*",
+    "clean": "rm -rf dist/",
+    "type:check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "overrides": {
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc"
+  },
+  "dependencies": {
+    "@replit/extensions": "^1.10.0",
+    "@replit/extensions-react": "^0.6.0",
+    "@replit/replkit": "^0.0.7",
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc",
+    "react": "^19.0.0-rc-935180c7e0-20240524",
+    "react-dom": "^19.0.0-rc-935180c7e0-20240524"
+  }
+}
